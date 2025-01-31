@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+openai-outside-in-tdd
+Problem statement
 
-Things you may want to cover:
+Say hello world with out quote
+It should return the response from openAI
+/ask?q=say "hello world!" without quotes
 
-* Ruby version
+assertion should be to expect "hello world"
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Request spec -> Request Code -> Which call service code -> Service Spec -> Service Code
